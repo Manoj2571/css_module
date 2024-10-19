@@ -1,0 +1,208 @@
+
+
+.contactForm {
+    border: 1px solid lightgray;
+    width: 400px;
+    padding: 2rem 1rem;
+}
+
+.form-control {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    padding: .375rem .75rem;
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+.btn {
+    color: white;
+    background-color: #424649;
+    border-radius: 6px;
+    width: 100%;
+    border: 0px;
+    box-sizing: border-box;
+    padding: 0.5rem 0rem;
+}
+
+.loginForm {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 150px;
+    padding-inline: 5rem;
+    padding-top: 0.75rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.loginForm .btn {
+    background-color: #0d6efd;
+    margin-top: 1rem;
+}
+
+.loginForm a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+.loginForm p {
+    text-align: center;
+}
+
+.nav-pills {
+    list-style: none;
+    display: flex;
+    gap: 1.4rem;
+    margin-block-start: 2rem;
+    margin-block-end: 2.2rem;
+    padding-inline-start: 0px;
+}
+
+.nav-link-selected{
+    text-decoration: none;
+    background-color: #0d6efd;
+    border: 1px solid #0d6efd;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 9px;
+}
+
+.nav-link:hover {
+    border: 1px solid #0d6efd;
+    color: #0d6efd;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.photo {
+    border-radius: 10px;
+    border: 5px solid rgba(211, 211, 211, .40);
+    margin-right: 5px;
+}
+
+.photoGallery {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.priceCard {
+    width: 200px;
+}
+
+.features {
+    list-style: none;
+    padding-inline-start: 5px;
+    line-height: 2;
+    margin-block-start: 0px;
+    margin-block-end: 0.5rem;
+    color: grey;
+    font-size: 13px;
+}
+
+hr {
+    margin-block-end: 0px;
+}
+
+.price {
+    margin-inline-start: 0.9rem;
+    color: gray;
+    font-size: 15px;
+    margin-block-start: 0px;
+}
+
+h3 {
+    margin-block-start: 10px;
+    margin-block-end: 8px;
+}
+
+.signUpBtn {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    padding: 4px 14px;
+}
+
+.pricingTable {
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.reviewOrder {
+    width: 400px;
+    border: 5px solid forestgreen;
+    padding: 0.5rem;
+    font-family: sans-serif;
+}
+
+.reviewOrder h1 {
+    text-align: start;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px 0px;
+    font-weight: bold;
+}
+
+.rowNonImg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.spanNormal {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.reviewOrder .btn {
+    border-radius: 0px;
+    background-color: forestgreen;
+    margin-block-start: 1em;
+    margin-block-end: 0.8em;
+}
+
+.quantityHeading {
+    margin-right: 16px;
+    text-align: center;
+}
+
+.quantity {
+    margin-right: 20px;
+}
+
+.productInfo {
+    padding-inline-start: 1px;
+    list-style: none;
+    line-height: 1.2;
+    font-size: 14px;
+    margin-block-start: 0.5em;
+    margin-block-end: 2em;
+}
+
+.ending {
+    font-style: italic;
+    text-align: center;
+    font-size: 12px;
+}
+

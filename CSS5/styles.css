@@ -1,0 +1,56 @@
+.row {
+    display: flex;
+    padding-inline-start: 0px;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.col {
+    border: 1px solid black;
+    background-color: aquamarine;
+    padding: 1px;
+}
+
+.nav-items {
+    list-style: none;
+    border: 1px solid black;
+    background-color: lightsalmon;
+    padding: 1px;
+    flex-grow: 1;
+}
+
+.cards {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid black;
+    max-width: 550px;
+    border-radius: 0.5rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.alignedRow {
+    margin-top: 1rem;
+    border: 1px solid black;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.middle {
+    align-content: center;
+    align-self: stretch;
+}
+
+.btn {
+    width: fit-content;
+    height: fit-content;
+    text-wrap: nowrap;
+}

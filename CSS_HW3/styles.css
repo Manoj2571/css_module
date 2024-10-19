@@ -1,0 +1,159 @@
+.mainBox {
+    height: 300px;
+    width: 300px;
+    background-color: lightgray;
+    position: relative;
+}
+
+.insideBox {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 100px;
+}
+
+.subBox {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline-start: 0px;
+}
+
+.nav-items {
+    border: 1px solid black;
+    list-style: none;
+    background-color: lightyellow;
+    padding-left: 0.5rem;
+    padding-right: 5rem;
+    flex-grow: 1;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.profileCard {
+    border: 1px solid yellow;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profileImage {
+    border-radius: 150px;
+    margin-top: 1rem;
+    margin-bottom: 1.8rem;
+}
+
+.courseCard {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.courseImage {
+    width: 290px;
+}
+
+.courseDetail {
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 0rem 5px;
+    font-weight: 500;
+}
+
+.btn {
+    background-color: lightgoldenrodyellow;
+    padding: 0.5rem 106px;
+    margin-bottom: 5px;
+    margin-top: 1px;
+    text-wrap: nowrap;
+    font-family: sans-serif;
+}
+
+.productCard {
+    display: flex;
+    gap: 1rem;
+    border: 1px solid lightgray;
+    max-width: 400px;
+    padding: 0.5rem 1.2rem;
+}
+
+
+
+.productCardButton {
+    background-color: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.testimonalCard {
+    max-width: 400px;
+    border: 1px solid lightgray;
+    padding: 1rem;
+}
+
+.userInfo {
+    display: flex;
+}
+
+.pricingCard {
+    border: 1px solid lightgray;
+    width: 200px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.features {
+    list-style: none;
+    padding-inline-start: 10px;
+    text-align: start;
+    margin-bottom: 5px;
+}
+
+.price {
+    padding: 0rem 1rem;
+}
+
+.btn2 {
+    border: 0px;
+    background-color: orange;
+    color: white;
+    padding: 0.8rem 0.6rem;
+}
+
+.priceCards {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.colsAlign {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.col {
+    list-style: none;
+    min-width: 200px;
+}
+
+footer {
+    background-color: lightcoral;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}

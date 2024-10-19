@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS_HW4</title>
+        <link rel="stylesheet" href="styles.css" >
+    </head>
+
+    <body>
+        <form class="contactForm">
+            <label for="name_contact">Name:</label><br />
+            <input type="text" class="form-control" id="name_contact"/>
+            <label for="email_contact">Email:</label><br />
+            <input type="email" class="form-control" id="email_contact"/><br />
+            <label for="message">Message:</label><br />
+            <textarea class="form-control" rows="3" id="message"></textarea><br />
+            <button class="btn">Submit</button>
+        </form>
+        <br /><br />
+        <form class="loginForm">
+            <h2>Login</h2>
+            <label>Email</label>
+            <input type="email" class="form-control"/>
+            <label>Password</label>
+            <input type="password" class="form-control"/>
+            <button class="btn">Login</button>
+            <p><a href="/">Forgot Password?</a></p>
+        </form>
+        <br /><br />
+        <div class="photoGallery">
+          <header>
+            <h1>Photo Gallery</h1>
+            <nav>
+                <ul class="nav-pills">
+                    <li class="list-item"><a class="nav-link-selected" href="/">All</a></li>
+                    <li><a href="/" class="nav-link">Nature</a></li>
+                    <li><a href="/" class="nav-link">Birds</a></li>
+                    <li><a href="/" class="nav-link">Animals</a></li>
+                </ul>
+            </nav>
+          </header>
+          <div >
+            <img src="https://placehold.co/110?text=Nature" class="photo"/>
+            <img src="https://placehold.co/110?text=Birds" class="photo"/>
+            <img src="https://placehold.co/110?text=Animals" class="photo"/>
+          </div>
+        </div>
+        <br /><br />
+        <div class="pricingTable">
+            <div class="priceCard">
+                <button>1 month Free</button>
+                <h3>Basic Plan</h3>
+                <p class="price">$9.99/mo</p>
+                <hr />
+                <ul class="features">
+                    <li>Ad-free music listening</li>
+                    <li>Download 10k songs/device</li>
+                    <li>Login from 3 devices</li>
+                </ul>
+                <button class="signUpBtn">Sign Up</button>
+            </div>
+            <div class="priceCard">
+                <button>1 month Free</button>
+                <h3>Pro Plan</h3>
+                <p class="price">$19.99/mo</p>
+                <hr />
+                <ul class="features">
+                    <li>Ad-free music listening</li>
+                    <li>Download 20k songs/device</li>
+                    <li>Login from 5 devices</li>
+                </ul>
+                <button class="signUpBtn">Sign Up</button>
+            </div>
+            <div class="priceCard">
+                <button>1 month Free</button>
+                <h3>Enterprise Plan</h3>
+                <p class="price">$59.99/mo</p>
+                <hr />
+                <ul class="features">
+                    <li>Ad-free music listening</li>
+                    <li>Download 50k songs/device</li>
+                    <li>Login from unlimited devices</li>
+                </ul>
+                <button class="signUpBtn">Sign Up</button>
+            </div>
+        </div>
+        <br /><br />
+        <div class="reviewOrder">
+           <h1>Review Order</h1>
+           <div class="row">
+             <span>ITEM</span>
+             <div class="row">
+              <span class="quantityHeading">QTY</span>
+              <span>TOTAL</span>
+             </div>
+           </div>
+           <div class="row">
+            <img src="https://placehold.co/50"/>
+            <div class="spanNormal">
+             <span class="quantity">1</span>
+             <span>INR 999</span>
+            </div>
+          </div>
+          <ul class="productInfo">
+            <li>Limited edition cactus print bag</li>
+            <li>1 litre, green color</li>
+          </ul>
+          <div class="rowNonImg">
+            <span class="spanNormal">Subtotal</span>
+            <span>INR 999</span>
+          </div>
+          <div class="rowNonImg">
+            <span class="spanNormal">GST</span>
+            <span>INR 179</span>
+          </div>
+          <div class="row">
+            <span>Grand Total</span>
+            <span>INR 1178</span>
+          </div>
+          <button class="btn">PLACE ORDER</button>
+          <p class="ending">Cart Secured by Razorpay</p>
+        </div>
+    </body>
+</html>

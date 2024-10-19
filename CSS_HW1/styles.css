@@ -1,0 +1,74 @@
+.heading {
+    text-align: center;
+    background-color: dimgray;
+    color: white;
+    padding: 2rem 0rem;
+    font-size: 3.2em;
+    font-weight: 200;
+    margin-bottom: 1.5rem;
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 2.3rem;
+}
+
+
+.navigation {
+   padding: 1rem; 
+   background-color: grey;
+}
+
+.nav-pills {
+    text-align: center;
+    color: white;
+    padding-inline-end: 40px;
+    font-size: 20px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.headingTwo {
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 1.5rem 0rem;
+    font-size: 2.3em;
+    font-weight: 550;
+    margin: 1.5rem 0rem;
+}
+
+.headingThree {
+    border: 1px solid lightgray;
+    padding: 1.5rem 1.5rem;
+    font-weight: 500;
+}
+
+.list-non-bullet {
+    border: 1px solid lightgray;
+    list-style: none;
+    padding-inline: 1.5rem;
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
+    font-size: larger;
+    margin: 1.5rem 0rem;
+}
+
+footer {
+    margin-bottom: 2.5rem;
+}
+
+
+
+
